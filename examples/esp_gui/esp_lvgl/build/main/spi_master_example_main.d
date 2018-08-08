@@ -1,0 +1,537 @@
+spi_master_example_main.o: \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/spi_master_example_main.c \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/stdio.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/_ansi.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/newlib.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/config.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/ieeefp.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/features.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/cdefs.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/_default_types.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/reent.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/_ansi.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/_types.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/_types.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/lock.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/types.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/types.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/sched.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/stdio.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/stdlib.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/stdlib.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/alloca.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/string.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/string.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/stdint.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/_intsup.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/build/include/sdkconfig.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/xtensa_config.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/hal.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/core.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/tie.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/system.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/xtensa_context.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/corebits.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_assert.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/platform_include/assert.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/assert.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/projdefs.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/portable.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/portmacro.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/tie/xt_core.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtruntime.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/specreg.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_crosscore_int.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_timer.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_err.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/heap/include/esp_heap_caps.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/heap/include/multi_heap.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/include/soc/soc_memory_layout.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_attr.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/portbenchmark.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_system.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_sleep.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/gpio.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_types.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/gpio.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_intr_alloc.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/touch_pad.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_intr.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/xtensa_api.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/touch_channel.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/task.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/limits.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/list.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/spi_master.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/semphr.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/spi_common.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/spi_struct.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/lldesc.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/queue.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/pretty_effect.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lvgl.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_misc/lv_task.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_misc/lv_mem.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_misc/lv_ll.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal_disp.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/../lv_misc/lv_color.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/../lv_misc/../../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal_indev.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/../lv_misc/lv_area.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal_tick.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_obj.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_style.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_color.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_area.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_font.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/../../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_fonts/lv_symbol_def.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_fonts/../../../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_anim.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_mem.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_ll.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_group.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_obj.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_vdb.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/../../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/../lv_core/lv_style.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_templ.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_default.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_alien.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_night.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_mono.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btn.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_cont.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/lv_obj.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/lv_indev.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/lv_obj.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/../lv_hal/lv_hal_indev.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/../lv_core/lv_group.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_img.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_fs.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/../../lv_conf.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_mem.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_fonts/lv_symbol_def.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_label.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_font.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_txt.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_area.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_font.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_draw/lv_draw.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_draw/../lv_core/lv_style.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_draw/../lv_misc/lv_txt.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_label.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_line.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_page.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_cont.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_list.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_page.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btn.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_img.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_chart.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_line.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_cb.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_bar.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_slider.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_bar.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_led.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btnm.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_kb.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btnm.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_ddlist.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_objx/lv_page.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_objx/lv_label.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_roller.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_ddlist.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_ta.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_win.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_tabview.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_objx/lv_win.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_mbox.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_gauge.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_lmeter.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_lmeter.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_sw.h \
+ /home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_slider.h
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/stdio.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/_ansi.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/newlib.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/config.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/ieeefp.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/features.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/cdefs.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/_default_types.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/reent.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/_ansi.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/_types.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/_types.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/lock.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/types.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/types.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/sched.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/stdio.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/stdlib.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/machine/stdlib.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/alloca.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/string.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/string.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/stdint.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/sys/_intsup.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/build/include/sdkconfig.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/xtensa_config.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/hal.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/core.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtensa-versions.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/tie.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/system.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/xtensa_context.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/corebits.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/platform_include/assert.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/assert.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/projdefs.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/portable.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/deprecated_definitions.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/portmacro.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/tie/xt_core.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtruntime.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/config/specreg.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_crosscore_int.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_timer.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_err.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/heap/include/esp_heap_caps.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/heap/include/multi_heap.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/include/soc/soc_memory_layout.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/portbenchmark.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/mpu_wrappers.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_system.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_sleep.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/gpio.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_types.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/gpio.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_intr_alloc.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/touch_pad.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/esp_intr.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/xtensa_api.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/touch_channel.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/newlib/include/limits.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/list.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/spi_master.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/semphr.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/freertos/include/freertos/queue.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/driver/include/driver/spi_common.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/soc/esp32/include/soc/spi_struct.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/lldesc.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/components/esp32/include/rom/queue.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/pretty_effect.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lvgl.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_misc/lv_task.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_misc/lv_mem.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_misc/lv_ll.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal_disp.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/../lv_misc/lv_color.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/../lv_misc/../../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal_indev.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/../lv_misc/lv_area.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_hal/lv_hal_tick.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_obj.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_style.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_color.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_area.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_font.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/../../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_fonts/lv_symbol_def.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_fonts/../../../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_anim.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_mem.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/../lv_misc/lv_ll.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_group.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_obj.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_core/lv_vdb.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/../../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/../lv_core/lv_style.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_templ.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_default.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_alien.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_night.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_themes/lv_theme_mono.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btn.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_cont.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/lv_obj.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/lv_indev.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/lv_obj.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/../lv_hal/lv_hal_indev.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_core/../lv_core/lv_group.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_img.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_fs.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/../../lv_conf.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_mem.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_fonts/lv_symbol_def.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_label.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_font.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_txt.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_area.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_misc/lv_font.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_draw/lv_draw.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_draw/../lv_core/lv_style.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_draw/../lv_misc/lv_txt.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_label.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_line.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_page.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_cont.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_list.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_page.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btn.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_img.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_chart.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_line.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_cb.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_bar.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_slider.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_bar.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_led.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btnm.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_kb.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_btnm.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_ddlist.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_objx/lv_page.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_objx/lv_label.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_roller.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_ddlist.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_ta.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_win.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_tabview.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/../lv_objx/lv_win.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_mbox.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_gauge.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_lmeter.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_lmeter.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_sw.h:
+
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/../lvgl/lv_objx/lv_slider.h:
+/home/gss/tools/workcode/esp_workcode/esp-idf/examples/esp_gui/esp_lvgl/main/./spi_master_example_main.c:
